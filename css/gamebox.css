@@ -1,0 +1,53 @@
+* {margin: 0; padding: 0;}
+
+html, body{width: 100%; height: 100%;}
+.row {width:100%;}
+
+
+html, body, #gameboxContainer, #gamebox {position: relative; z-index: -1;}
+.tile, .character, .object {position: absolute;}
+.tile { z-index: -1;}
+.character img {min-width: 60%; min-height: 70%; max-width: 100%; max-height: 100%;}
+.characterImg{
+			max-width: 30px;
+			max-height: 40px;
+		}
+.tile img, .object img {width: 100%; height: 100%;}
+
+#gameboxContainer {
+	height: 100%;
+	background:black;
+	/*border: 1px solid blue;*/
+	padding: 0;
+
+	/*overflow-x: scroll; */
+	/*overflow-y: scroll;*/
+	z-index: -2;
+	overflow: hidden;
+}
+
+#gamebox {
+	/*border: 1px solid blue;*/
+	overflow-x: scroll; 
+	overflow-y: scroll;
+	width:100%;
+	height:100%;
+	padding-right: 17px;  
+	padding-bottom: 17px;
+    box-sizing: content-box; 
+	/*overflow: hidden;*/
+}
+
+.btn-heal, .btn-heal:hover, .btn-heal:active, .btn-heal:focus {
+	background: #eb93ff;
+	color: white;
+}
+.btn-heal:focus {border: 1px solid #ff78e2;}
+.btn-heal:hover {background: #ff78e2;}
+
+input, button {margin-top: 5px;}
+.toolbar {margin-top: 5px; padding-left: 0px;}
+
+#actionOutputContent, #actionScriptname, #actionScripttext {
+	cursor: default;
+}

@@ -1,0 +1,24 @@
+references:
+https://www.w3schools.com/bootstrap/bootstrap_media_objects.asp
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_modal&stacked=h
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_html_click
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_form_radio_inline&stacked=h
+
+https://medium.com/typecode/a-strategy-for-handling-multiple-file-uploads-using-javascript-eb00a77e15f
+
+#########################################
+
+Api parsing
+
+let user = data["user"]
+
+let name = user["name"];
+let id = user["id"]
+let location = user["location"];
+let character = user["character"];
+let form = user["form"];
+let material = user["material"] ;
+let collected = user["total_collected"] ;
+let dropped = user["total_dropped"];
+let row = user["row"];
+let col = user["col"];
